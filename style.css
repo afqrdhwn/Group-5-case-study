@@ -1,0 +1,152 @@
+
+* {
+box-sizing: border-box;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding-top: 2%;
+padding-right: 4%;
+padding-bottom: 2%;
+overflow: hidden;
+}
+
+li {
+font-family:Bebas Neue;
+float: right;
+color:white
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 8px 14px;
+text-decoration: none;
+}
+
+li a:hover {
+color:#444444;
+opacity:50%;
+transition:0.2s ease-in;
+}
+
+.material-icons {
+font-size:50px;
+color:white
+display: inline-block;
+margin-top: 15px
+}
+
+body {
+background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('images/bg.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+margin:0;
+}
+
+.logo{
+display: inline-block;
+margin-left: 370px;
+}
+
+.call{
+display: inline;
+float :left
+}
+
+.phoneno{
+font-size:120%;
+}
+
+.time{
+font-size:80%;
+color:#b6afac
+}
+
+.home{
+text-align:center;
+margin-top: 100px;
+color:white}
+
+.shop-button {
+background-color: transparent;
+border: 2px solid white;
+color: white;
+padding: 10px 20px;
+text-align: center;
+display: inline-block;
+font-size: 25px;
+margin: 10px 30px;
+cursor: pointer;
+font-family: Bebas Neue;
+width:20%;
+margin-top: 50px;
+margin-bottom: 100px;
+transition:0.5s;
+}
+
+.shop-button:hover {
+background-color: #8b0000;
+color: white;
+border: 2px solid #8b0000;
+}
+
+.summary {
+font-family: Bebas Neue;
+margin-right:5%;
+height : 100%;
+width: 25%;
+color:white;
+margin-bottom:10%;
+margin-top:0.7%
+}
+
+.cart {
+margin-left:5%;
+margin-top:0.9%;
+float:left;
+height : 100%;
+width: 60%;
+color:white
+}
+
+.cart-button{
+position:inline-block;
+background-color:#8b0000; 
+border-style: solid;
+color: white;    
+border:0px; 
+padding: 10px;
+cursor:pointer;
+transition:0.5s;
+width: 100%;
+font-family: Bebas Neue;
+font-size: 18px;
+}
+
+
+.cart-button:hover{
+background-color:black;
+color:white
+}
+
+th{
+font-family:Bebas Neue;
+font-size: 35px;
+text-align:left;
+}
+
+td{
+font-family:Roboto Serif;"
+font-size: 10px;
+}
+
+
+hr {
+height:1px;
+background-color:white;
+border-width:0;
+}

@@ -25,7 +25,7 @@ echo "<button class='shop-button' onclick='window.location.href = '#menu';'> SHO
 
 </section>
 
-<section class="order-summary">		<!-- Afiq Ridhwan (2014161) -->
+<section class="order-summary">			<!-- Afiq Ridhwan (2014161) -->
 <?php include('./summary.php') ?>
 </section>
 

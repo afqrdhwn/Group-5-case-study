@@ -6,7 +6,7 @@ Group 5
 5) 
 
 Task Destribution
-1) Items, product description and price listing - Afnan
+1) Footer, contact info, social media, List of items, product description and price - Afnan
 2) Navigation bar, Homepage and Order Summary - Afiq Ridhwan
 3) 
 

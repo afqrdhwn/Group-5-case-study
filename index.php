@@ -29,5 +29,9 @@ echo "<button class='shop-button' onclick='window.location.href = '#menu';'> SHO
 <?php include('./summary.php') ?>
 </section>
 
+<section id="footer">				<!-- Afnan (1920311) -->
+
+</section>
+	
 </body>
 </html>

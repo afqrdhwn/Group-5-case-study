@@ -11,4 +11,4 @@ Task Destribution
 3) 
 
 Case Study Description
-This is a Brownies Homebakery webpage. 
+Dr Brownies is a Brownies Homebakery web page by Dr Ida. There are various delicious desserts sold on this website including brownies, batik cake, tartle and cookies. This website uses PHP programming language as well as css, javascript and html. The website is developed by group 5 to help our client to sell her products online to further grow her business

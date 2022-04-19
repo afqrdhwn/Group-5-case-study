@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html >
 <head>
-    <meta charset="UTF-8">
+    	<meta charset="UTF-8">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto+Serif" rel="stylesheet">
-    <title>Dr Brownies </title>
-	<style>
+    	<title>Dr Brownies </title>
+<style>
 
-/* Afiq Ridhwan (2014161)*/		
+<!-- Afiq Ridhwan (2014161) -->
+
 * {
 box-sizing: border-box;
 }
@@ -108,12 +109,69 @@ background-color: #8b0000;
 color: white;
 border: 2px solid #8b0000;
 
+.summary {
+font-family: Bebas Neue;
+margin-right:5%;
+height : 100%;
+width: 25%;
+color:white;
+margin-bottom:10%;
+margin-top:0.7%
+}
+
+.cart {
+margin-left:5%;
+margin-top:0.9%;
+float:left;
+height : 100%;
+width: 60%;
+color:white
+}
+
+.cart-button{
+position:inline-block;
+background-color:#8b0000; 
+border-style: solid;
+color: white;    
+border:0px; 
+padding: 10px;
+cursor:pointer;
+transition:0.5s;
+width: 100%;
+font-family: Bebas Neue;
+font-size: 18px;
+}
+
+
+.cart-button:hover{
+background-color:black;
+color:white
+}
+
+th{
+font-family:Bebas Neue;
+font-size: 35px;
+text-align:left;
+}
+
+td{
+font-family:Roboto Serif;"
+font-size: 10px;
+}
+
+
+hr {
+height:1px;
+background-color:white;
+border-width:0;
+}
+
 </style>
 </head>
 
 <body>
-/* Afiq Ridhwan (2014161)*/
 	
+<!-- Afiq Ridhwan (2014161) -->
 <ul>
 <div class ="call">
 <li class = "phoneno" ><br>+6012-345-6789<br><span class = "time"> &nbsp 10:00am-10:00pm</span></li>
@@ -133,5 +191,68 @@ border: 2px solid #8b0000;
 
 <button class="shop-button" onclick="window.location.href = '#menu';"> SHOP NOW </button>
 
+
+	
+
+	
+
+	
+
+<!-- Afiq Ridhwan (2014161) -->
+<table class ="summary" align="right">
+
+  <div class="cart-subtotal">
+  
+    <thead >
+        <tr >
+            <th colspan="3">Order Summary<br><hr></th>
+        </tr>
+    </thead>
+    <tbody>
+	<tr>
+        <td>Subtotal</td>
+		<td></td>
+		<td class="subtotal-price" align="right">RM 0.00</td>
+	</tr>
+	
+	<tr>
+        <td>6% GST</td>
+		<td></td>
+		<td class="gst-price" align="right">RM 0.00</td>
+	</tr>
+	
+	<tr>
+		<td colspan="3"><hr></td>
+	</tr>
+
+	<tr>
+        <td>Total</td>
+		<td></td>
+		<td class="total-price" align="right">RM 0.00</td>
+	</tr>
+	
+	 </div>
+
+	<tr>
+        <td colspan="3"><br><button class="cart-button" onclick="checkout()">Checkout</button><br><br></td>
+	</tr>
+	
+	</tbody>
+	</table>
+	
+<table class ="cart">
+    <thead>
+        <tr >
+        <th colspan="5">My Shopping Cart<br><hr></th>
+        </tr>
+    </thead>
+    <tbody>
+	<tr>
+		<td class="cart-row" ></td>
+		<td class="cart-item"></td>
+	</tr>
+</tbody>
+</table>
+	
 </body>
 </html>

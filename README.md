@@ -3,12 +3,12 @@ Group 5
 2) Muhammad Afiq Bin Abdul Patah
 3) Afnan Iman bin Azman (1902311)
 4) Zahra Fathanah (2019050)
-5) 
+5) Alfikra Muhammad (1836031)
 
 Task Destribution
 1) Footer, contact info, social media, List of items, product description and price - Afnan
 2) Navigation bar, Homepage and Order Summary - Afiq Ridhwan
-3) 
+3) Js cart
 
 Case Study Description
 

@@ -152,7 +152,7 @@ width: 100%;
 background-color: #8b0000;
 color: white;
 font-family:Roboto Serif;
-margin-top:40%;
+margin-top:20%;
 overflow: auto;
 }
 
@@ -192,3 +192,136 @@ float :right;
 margin-right:5%;
 margin-top:0%;
 }
+
+.row {
+    display: flex;
+	position:relative;
+	text-align:center
+}
+
+.column {
+    flex: 33.33%;
+    padding: 7px;
+}
+  
+.food-items{
+    display: grid;
+    position: relative;
+    grid-template-column: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin: 2%;
+	width: 90%;
+	height:90%;
+}
+
+
+.food-items img{
+    position: relative;
+    width:100%;
+	height:auto;
+    border-radius: 15px 15px 0 0;
+}
+
+.menu{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(350px,1fr));
+}
+
+.heading{
+    background-color: #cb202d;
+    color: #ffffff;
+    margin-bottom: 30px;
+    padding: 0px 0 20px 0;
+    grid-column: 1/-1;
+    text-align: center;
+
+}
+.heading>h1{
+	font-family: Bebas Neue;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+.heading>h2{
+	font-family: Bebas Neue;
+	font-size: 15px;
+	letter-spacing: 3px;
+}
+.heading>h3{
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+
+h4{
+    color: white;
+    font-size: 15px;
+	padding:7px;
+	text-align:center;
+}
+
+.details-sub>h5{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;	
+	color: white;
+}
+
+.details{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+}
+
+.price{
+    text-align: center;
+}
+
+.container {
+    margin: 5rem;
+}
+
+.container .header--text {
+    text-align:left;
+}
+.container .header--text h2 {
+    font-size: 3.5rem;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+    color: white;
+}
+.container .header--text p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: white;
+}
+
+
+.container #tabs ul li a:link,
+.container #tabs ul li a:visited {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#tabs {
+width:100%;
+height:auto;
+}
+
+#tabs .ui-tabs-nav {
+	height: 3.35em;
+	text-align: center;	
+}
+
+#tabs .ui-tabs-nav li {
+	display: inline-block;
+	float: none;
+	top: 0px;
+	margin: 0em;
+	padding-bottom: 0px;
+	}

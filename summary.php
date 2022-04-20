@@ -1,3 +1,5 @@
+
+
 <table class ="summary" align="right">
 
   <div class="cart-subtotal">
@@ -9,14 +11,14 @@
     </thead>
     <tbody>
 	<?php echo "<tr>
-    	<td>Subtotal</td>
+    <td>Subtotal</td>
 	<td></td>
 	<td class='subtotal-price' align='right'>RM 0.00</td>
 	</tr>";  ?>
 	
 	<tr>
 	<!-- tax -->
-    	<?php echo "<td>6% GST</td>
+    <?php echo "<td>6% GST</td>
 	<td></td>
 	<td class='gst-price' align='right'>RM 0.00</td>"; ?>
 	</tr>
@@ -26,7 +28,7 @@
 	</tr>
 
 	<tr>
-    	<?php echo "<td>Total</td>
+    <?php echo "<td>Total</td>
 	<td></td>
 	<td class='total-price' align='right'>RM 0.00</td>"; ?>
 	</tr>
@@ -34,7 +36,7 @@
 	 </div>
 
 	<tr>
-     	<?php echo "<td colspan='3'><br><button class='cart-button' onclick= 'return checkout();'>Checkout</button><br><br></td>"; ?>
+     <?php echo "<td colspan='3'><br><button class='cart-button' onclick= 'return checkout();'>Checkout</button><br><br></td>"; ?>
 	</tr>
 	
 	</tbody>

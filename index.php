@@ -30,7 +30,7 @@ echo "<button class='shop-button' onclick='window.location.href = '#menu';'> SHO
 </section>
 
 <section id="footer">				<!-- Afnan (1920311) -->
-
+<?php include('./footer.php') ?>
 </section>
 	
 </body>

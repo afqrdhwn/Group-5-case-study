@@ -8,20 +8,15 @@
     font-family: "Titillium Web", sans-serif;
     list-style-type: none;
 }
-
 html {
-    -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none;
 }
-
 html::-webkit-scrollbar {
     display: none;
 }
-
 body {
     display: flex;
     flex-direction: column;
-    -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none;
 }
 body::webkit-scrollbar {
@@ -43,8 +38,7 @@ nav {
     align-items: center;
     padding: 10px;
 }
-
-/* logo , my account and shopping cart */
+/* logo shopping cart */
 nav .navbar-top {
     max-width: 1600px;
     padding: 10px;
@@ -53,7 +47,6 @@ nav .navbar-top {
     flex-direction: row;
     justify-content: space-between;
 }
-
 .navbar-top .logo {
     position: absolute;
     top: 30px;
@@ -61,8 +54,7 @@ nav .navbar-top {
     width: 150px;
     height: 75px;
 }
-
-/* container of my account and shopping cart */
+/* shopping cart */
 .navbar-top > div {
     margin-right: 10px;
     display: flex;
@@ -373,7 +365,6 @@ main {
 .hidden {
     display: none;
 }
-
 @media screen and (max-width: 1024px) {
     nav .navbar-top {
         padding: 0;
@@ -412,7 +403,6 @@ main {
         background: rgba(0, 0, 0, 0.5);
         z-index: -1;
     }
-
     .item img {
         padding: 10px 5px;
     }
@@ -426,7 +416,6 @@ main {
         height: 200px;
     }
 }
-
 @media screen and (max-width: 500px) {
     .btn {
         font-size: 0.9rem;

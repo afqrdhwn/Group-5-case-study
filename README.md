@@ -10,6 +10,7 @@ Task Destribution
 2) Navigation bar, Homepage and Order Summary - Afiq Ridhwan
 3) Js cart - Alfikra Muhammad
 4) Calculation - Zahra Fathanah
+5) menu - Afiq
 
 Case Study Description
 

@@ -30,11 +30,24 @@ li a:hover {
 color:#444444;
 opacity:50%;
 transition:0.2s ease-in;
+cursor:pointer;
 }
+
+a {
+display: block;
+color: white;
+text-decoration: none;
+
+}
+
+a:hover {
+cursor:pointer;
+}
+
 
 .material-icons {
 font-size:50px;
-color:white
+color:white;
 display: inline-block;
 margin-top: 15px
 }
@@ -69,7 +82,8 @@ color:#b6afac
 #home{
 text-align:center;
 margin-top: 100px;
-color:white}
+color:white
+}
 
 .shop-button {
 background-color: transparent;
@@ -133,14 +147,13 @@ background-color:black;
 color:white
 }
 
-.footer {                   
-position: fixed;
-left: 0;
-bottom: 0;
+#footer {                   
 width: 100%;
-background-color: green;
+background-color: #8b0000;
 color: white;
-text-align: center;
+font-family:Roboto Serif;
+margin-top:40%;
+overflow: auto;
 }
 
 th{
@@ -160,3 +173,22 @@ height:1px;
 background-color:white;
 border-width:0;
 }
+
+h3 {
+font-family:Bebas Neue;
+font-size: 25px;
+margin-bottom:0;
+}
+
+#detail{
+display: inline-block;
+float :left;
+margin-left:5%;
+}
+
+#social{
+display: inline-block;
+float :right;
+margin-right:5%;
+margin-top:0%;
+margin-bottom:6%}

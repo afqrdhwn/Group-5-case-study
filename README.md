@@ -9,6 +9,7 @@ Task Destribution
 1) Footer, contact info, social media, List of items, product description and price - Afnan
 2) Navigation bar, Homepage and Order Summary - Afiq Ridhwan
 3) Js cart - Alfikra Muhammad
+4) Calculation - Zahra Fathanah
 
 Case Study Description
 

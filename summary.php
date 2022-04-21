@@ -57,10 +57,8 @@
 </tbody>
 </table>
 
-<script type="text/javascript">
+<script>
     function checkout(event){
-        alert("Your order has been submitted. Thank you");
-		window.location.href="index.php"; 
-        return true;
+        return alert("Your order has been submitted. Thank you");
     }
 </script>

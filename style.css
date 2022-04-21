@@ -325,3 +325,23 @@ height:auto;
 	margin: 0em;
 	padding-bottom: 0px;
 	}
+
+.checkout-button{
+position:inline-block;
+background-color:white; 
+border-style: solid;
+color: black;    
+border:0px; 
+padding: 10px;
+cursor:pointer;
+transition:0.5s;
+width: 100%;
+font-family: Bebas Neue;
+font-size: 18px;
+}
+
+
+.checkout-button:hover{
+background-color:black;
+color:white
+}

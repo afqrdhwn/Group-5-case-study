@@ -59,6 +59,7 @@
 
 <script>
     function checkout(event){
-        return alert("Your order has been submitted. Thank you");
+        alert("Your order has been submitted. Thank you");
+	window.location.href = "index.php";
     }
 </script>

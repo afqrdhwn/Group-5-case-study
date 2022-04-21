@@ -36,7 +36,7 @@
 	 </div>
 
 	<tr>
-     <?php echo "<td colspan='3'><br><button class='cart-button' onclick= 'return checkout();'>Checkout</button><br><br></td>"; ?>
+     <?php echo "<td colspan='3'><br><button class='checkout-button' onclick= 'return checkout();'>Checkout</button><br><br></td>"; ?>
 	</tr>
 	
 	</tbody>

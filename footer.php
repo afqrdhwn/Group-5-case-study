@@ -12,9 +12,9 @@ echo "<h3>Contact Information</h3>
 <div id="social">
 <?php 
 echo "<h3>Social Media</h3>";
-echo "<a href='https://vt.tiktok.com/ZSek7txUF//html/'><i style='font-size:24px' class='material-icons'>tiktok</i> @dr.brownieshq</a>";
-echo "<a href='https://instagram.com/drbrownies_hq?igshid=5c8p64pi6g1t/html/'><i style='font-size:24px' class='material-icons'>photo_camera</i> @drbrownies_hq</a>";
-echo "<a href='https://www.facebook.com/Dr.BROWNIESKuantan/html/'><i style='font-size:24px; color : white' class='material-icons'>facebook</i> Dr.BROWNIESKuantan</a>";
-echo "<a href='http://shopee.com.my/dr.brownies_hq/html/'><i style='font-size:24px; color : white' class='material-icons'>local_mall</i> DrBrownies_HQ</a><br>";
+echo "<a href='https://vt.tiktok.com/ZSek7txUF/'><i style='font-size:24px' class='material-icons'>tiktok</i> @dr.brownieshq</a>";
+echo "<a href='https://instagram.com/drbrownies_hq?igshid=5c8p64pi6g1t/'><i style='font-size:24px' class='material-icons'>photo_camera</i> @drbrownies_hq</a>";
+echo "<a href='https://www.facebook.com/Dr.BROWNIESKuantan/'><i style='font-size:24px; color : white' class='material-icons'>facebook</i> Dr.BROWNIESKuantan</a>";
+echo "<a href='http://shopee.com.my/dr.brownies_hq/'><i style='font-size:24px; color : white' class='material-icons'>local_mall</i> DrBrownies_HQ</a><br>";
 ?>
 </div>

@@ -15,7 +15,7 @@
         <div id="tabs">
 
             <ul>
-		<?php  echo "<li style= 'float:left;'></a> <a href=\"index.php\"><i class='material-icons'>keyboard_backspace</i></li>"; ?>
+		<?php  echo "<li style= 'float:left;'><a href=\"index.php\"><i class='material-icons'>keyboard_backspace</i></a></li>"; ?>
             </ul>
 
 

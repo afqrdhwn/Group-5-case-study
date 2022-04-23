@@ -69,7 +69,7 @@ echo "<button class=\"cart-button\" type=\"button\" onclick=\"window.location.hr
         <?php
 echo "<h5> 4 Dara Box</h5>";
 echo "<h4>Plain,almond, walnut & choc chips brownies (9 pcs each)</h4>";
-echo "<h5 class=\"price\"><strike style= 'color:#BEBEBE;'>RM 39</strike><br><b>RM 35</b></h5>";?>
+echo "<h5 class=\"price\"><strike style= 'color:red;'>RM 39</strike><br><b>RM 35</b></h5>";?>
 	    
 </div>
 </div>
@@ -85,7 +85,7 @@ echo "<button class=\"cart-button\" type=\"button\" onclick=\"window.location.hr
 <?php
 echo "<h5>4 Premium Box</h5>";
 echo "<h4>Batek indulgence,Batek original,Cheese berries & any brownies (9 pcs each)</h4>";
-echo "<h5 class=\"price\"><strike style= 'color:#BEBEBE;'>RM 49</strike><br><b>RM 45</b></h5>";
+echo "<h5 class=\"price\"><strike style= 'color:red;'>RM 49</strike><br><b>RM 45</b></h5>";
 ?>
 </div>
 </div>

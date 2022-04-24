@@ -7,7 +7,7 @@ Group 5
 
 Task Destribution
 1) Footer(social media), List of items, product description and price - Afnan
-2) Navigation bar, Homepage and Order Summary - Afiq Ridhwan
+2) Navigation bar, Homepage and Cart page - Afiq Ridhwan
 3) Add to Cart Javascript - Alfikra Muhammad
 4) Discount, Total and GST Calculation - Zahra Fathanah
 5) Menu page - Afiq

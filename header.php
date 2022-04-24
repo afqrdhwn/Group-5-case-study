@@ -4,3 +4,4 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto+Serif" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js" async></script>

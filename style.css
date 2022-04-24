@@ -302,30 +302,6 @@ h4{
 }
 
 
-.container #tabs ul li a:link,
-.container #tabs ul li a:visited {
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-
-#tabs {
-width:100%;
-height:auto;
-}
-
-#tabs .ui-tabs-nav {
-	height: 3.35em;
-	text-align: center;	
-}
-
-#tabs .ui-tabs-nav li {
-	display: inline-block;
-	float: none;
-	top: 0px;
-	margin: 0em;
-	padding-bottom: 0px;
-	}
-
 .checkout-button{
 position:inline-block;
 background-color:white; 
@@ -340,8 +316,28 @@ font-family: Bebas Neue;
 font-size: 18px;
 }
 
-
 .checkout-button:hover{
 background-color:black;
 color:white
+}
+
+.item-name {
+font-family: Bebas Neue;
+font-size: 25px;
+}
+
+.cart-detail {
+float:right }
+
+.quantity-input {
+width:50px;
+margin-left: 5%;
+}	
+
+.cancel-button {
+border: none;
+background: none;
+cursor:pointer;
+width:5%;	
+color:white;
 }
